@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BoundedBuffer
+comment1.params=
+comment1.target=BoundedBuffer()
+comment2.params=item
+comment2.target=void\ insert(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.Object\ remove()
+numComments=4

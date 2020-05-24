@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Producer
+comment1.params=buffer
+comment1.target=Producer(Buffer)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

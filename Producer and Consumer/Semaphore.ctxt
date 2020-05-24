@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Semaphore
+comment0.text=\n\ Semaphore.java\n\n\ A\ basic\ counting\ semaphore\ using\ Java\ synchronization.\n
+comment1.params=value
+comment1.target=Semaphore(int)
+comment2.params=
+comment2.target=void\ acquire()
+comment3.params=
+comment3.target=void\ release()
+numComments=4
