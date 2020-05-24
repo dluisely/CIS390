@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MemoryManagement
+comment0.text=\n\ \n\ Given\ six\ memory\ partitions\ of\ 300\ KB,\ 600\ KB,\ 350\ KB,\ 200\ KB,\ 750\ KB,\ and\ 125\ KB\ (in\ order),\ \n\ how\ would\ the\ first-fit,\ best-fit,\ and\ worst-fit\ algorithms\ place\ \n\ processes\ of\ size\ 115\ KB,\ 500\ KB,\ 358\ KB,\ 200\ KB,\ and\ 375\ KB\ (in\ order)?\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 27,\ 2020\n
+comment1.params=ars
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ initData()
+comment3.params=
+comment3.target=void\ firstFit()
+comment3.text=\n\ Allocate\ the\ first\ hole\ that\ is\ big\ enough.\ \n\ Searching\ can\ start\ either\ at\ the\ beginning\ of\ the\ set\ of\ holes\ or\ at\ the\ location\ where\ the\ previous\ first-fit\ search\ ended.\ \n\ We\ can\ stop\ searching\ as\ soon\ as\ we\ find\ a\ free\ hole\ that\ is\ large\ enough.\n
+comment4.params=
+comment4.target=void\ bestFit()
+comment4.text=\n\ Allocate\ the\ smallest\ hole\ that\ is\ big\ enough.\ \n\ We\ must\ search\ the\ entire\ list,\ unless\ the\ list\ is\ ordered\ by\ size.\ \n\ This\ strategy\ produces\ the\ smallest\ leftover\ hole.\n
+comment5.params=
+comment5.target=void\ worstFit()
+comment5.text=\n\ Allocate\ the\ largest\ hole.\ \n\ Again,\ we\ must\ search\ the\ entire\ list,\ unless\ it\ is\ sorted\ by\ size.\ \n\ This\ strategy\ produces\ the\ largest\ leftover\ hole,\ which\ may\ be\ more\ useful\ than\ the\ smaller\ leftover\ hole\ from\ a\ best-fit\ approach.\n
+comment6.params=i\ index
+comment6.target=void\ allocation(int,\ int)
+numComments=7
