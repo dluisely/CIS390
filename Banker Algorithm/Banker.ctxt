@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Banker
+comment0.text=\n\ Banker\ algorithm\ including\ safety\ and\ resources\ request\ algorithm.\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 27,\ 2020\n
+comment1.params=
+comment1.target=void\ initData()
+comment2.params=
+comment2.target=void\ calcNeed()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=
+comment4.target=void\ printTable()
+comment5.params=
+comment5.target=void\ safetyAlgorithm()
+comment6.params=
+comment6.target=void\ determineSafety()
+comment7.params=processNum\ request
+comment7.target=void\ resourceRequestAlgorithm(int,\ int[])
+comment8.params=processNum\ request
+comment8.target=void\ allocateRequest(int,\ int[])
+numComments=9
