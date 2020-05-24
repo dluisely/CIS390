@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SegmentationHardware
+comment0.text=\n\ Segmentation\ Hardware\ algorithm\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 27,\ 2020\n
+comment1.params=
+comment1.target=SegmentationHardware()
+comment2.params=
+comment2.target=void\ main()
+comment3.params=
+comment3.target=void\ printTable()
+comment4.params=segmentNum\ offset
+comment4.target=void\ segmentation(int,\ int)
+numComments=5
